@@ -8,12 +8,12 @@ rm(list=ls())
 
 #load the Abun.EA data into R
 
-setwd("C:/Users/feveleen/Documents/R lectures EA")
+setwd("C:/Users/feveleen/Documents/R lectures EA") #Set you personalized directory
 
-getwd()
-dir()
+getwd() #What shows up in the console is your current directory
+dir() #what folders do you have in this directory?
 
-dat <-read.table("Abun.EA.txt", header=T, sep="\t")
+dat <-read.table("Data/Lectures_FEM/Abun.EA.txt", header=T, sep="\t")  #For GitHub users: This file can be found in the folder "/Data/Lectures_FEM"
 
 #The data consists of 10 species found in 4 samples with 5 replicates
 #per sample
