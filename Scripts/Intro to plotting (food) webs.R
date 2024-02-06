@@ -2,7 +2,7 @@
 
 
 library(igraph)
-library(fluxweb)
+
 
 dev.off()
 rm(list=ls())
